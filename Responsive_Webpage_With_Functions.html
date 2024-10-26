@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Webpage with Functional Search and Notification Bar</title>
+<style>
+    /* Base Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        padding: 20px;
+    }
+
+    /* Search Bar Styles */
+    .search-container {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(26, 26, 26, 0.6);
+        border-radius: 5px;
+    }
+    .search-input {
+        flex: 1;
+        padding: 8px;
+        font-size: 16px;
+        color: #fff;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    .search-icon {
+        background-color: rgba(22, 22, 22, 0.9);
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    /* Notification Bar Styles */
+    .notification-bar {
+        background-color: #ff5722;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+    }
+    .close-btn {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px;
+        }
+        .search-input {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .search-container {
+            flex-direction: column;
+        }
+        .search-icon {
+            padding: 5px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="notification-bar">
+    Important Notification! <button class="close-btn" onclick="closeNotification()">×</button>
+</div>
+
+<div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+        <div class="search-icon" onclick="searchFunction()">🔍</div>
+    </div>
+</div>
+
+<script>
+    // JavaScript for Notification Bar
+    function closeNotification() {
+        document.querySelector(".notification-bar").style.display = "none";
+    }
+
+    // JavaScript for Search Functionality
+    function searchFunction() {
+        let input = document.getElementById("searchInput").value.toLowerCase();
+        alert("Searching for: " + input); // Example functionality
+        // Implement actual search logic if needed
+    }
+</script>
+
+</body>
+</html>
