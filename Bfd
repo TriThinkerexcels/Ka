@@ -1,0 +1,1338 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <title>La Frosk&#211;</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <meta name="keywords" content="La f
+     Fresk&#211;, la Fresk&#211; , Ar mall,La Fresk&#211; Ar mall Mota varachha , surat,best cafe in surat, top 10 best cafe in surat, best cafe in mota varachha,top 10 cafe in surat">
+
+<meta name="description" content="Welcome to La Fresk&#211;, where we offer a cozy atmosphere and delicious Coffee Meets Falafel, Cheesecake & More!✨. Join us for a relaxing time and enjoy our ...">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="La.css">
+
+ <meta charset="UTF-8">
+
+ <link rel="icon" type="png" sizes="32x32" href="file:///storage/emulated/0/Download/output-onlinepngtools.png">
+<link rel="icon" type="png" sizes="16x16" href="file:///storage/emulated/0/Download/output-onlinepngtools.png">
+
+
+ <link rel="stylesheet" href="https://raw.githubusercontent.com/miniMAC/magic/master/dist/magic.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" >
+
+ <style>
+ :root{
+    --angle: 0deg;
+     --background:linear-gradient(60deg, 
+     rgba(20,20,20,1),
+     rgba(18,18,18,1)
+     );
+    --width:150px;
+    --height:150px;
+    --quantity:8;
+    --time:8s;
+ }
+@property --angle{
+    syntax:"<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+body,html {
+      margin:0;
+      padding:0;
+      font-family:Poppins;
+      font-style:italic;
+      background:var(--background);
+      background-attachment:scroll;
+      background-size:cover;
+      z-index: 100;
+      color:white;
+    transition:all 0.8 linear cubic-bezier(.63,1.47,.98,-0.08);
+
+}
+
+.Header{
+    display:flex;
+    justify-content:space-between;
+        align-items:center;
+        position:fixed;
+        left:0;
+        right:0;
+        top:0;
+        height:50px;
+        background-color:transparent;
+background:linear-gradient(60deg, 
+     rgba(22,22,22,0.8),
+     rgba(20,20,20,0.9)
+     ); ;
+        border-bottom:solid;
+border-color:rgba(38,38,38,0.8);
+box-shadow: 2px 2px 2px rgba(40,40,40,0.7);
+     z-index:101;
+    }
+
+    .logo img{
+        width:35px;
+        object-fit:contain;
+        margin-top:5px;
+    }
+
+    .side-bar{
+        display:flex;
+        justify-content:space-between;
+        margin-left:0;
+        width:15vw;
+        max-width:150px;
+    }
+
+    .side-bar img {
+        width:25px;
+        object-fit: contain;
+        border-radius:50%;
+        margin-left:5px;
+        margin-top:2px;
+        mix-blend-mode: lighten;
+    }
+
+    .side-bar summary img {
+        width:26px;
+       margin-top:9px;
+       margin-right:5px;
+
+    }
+
+    .side-bar summary{
+        list-style:none;
+        position:relative;
+        outline:none;
+
+    }
+
+    .side-bar ul{
+        transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+        z-index: 100;
+        list-style:none;
+        position:absolute;
+        right:0%;
+        top: 100%;
+        background-color:transparent;
+        padding-left:10px;
+        padding-right:10px;
+    width:max-content;
+ background-image:repeating-linear-gradient(60deg,
+         rgba(250,30,50,0.7),
+            rgba(249,129,47,0.8));
+
+background-attachment:scroll;
+        background-repeat: repeat;
+        background-size:5px;
+        border-radius:10%;
+
+}
+
+    .side-bar button{
+        margin-right:0px;
+        width:16vw;
+        max-width:100px;
+        margin-left:7px;
+       font-family:Poppins; 
+      border-radius:var(--br-radius);
+      padding-top:0px;
+      padding-bottom:0px;
+      height:27px;
+    margin-top:8px;
+    border:none;
+    color:white;
+    background-color:rgb(255,110,0);
+    border-radius:15%;
+    }
+
+     .search-bar , form {
+      display:flex;
+      flex-direction:row;
+      flex:.95;
+      align-items:center;
+      max-width:650px;
+        width:0;
+        margin-left:5px;
+        margin-top:2px;
+       }
+
+ .searchbox{
+        width:0px;
+      display:flex;
+     font-family:Poppins;
+     font-weight:500;
+     font-style:italic;
+        flex-direction:row;
+        flex:1;
+        outline:none;
+        border:solid;
+        border-width:1px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-right:none;
+    padding:3px;
+    background-color:transparent;
+    background:linear-gradient(60deg, 
+     rgba(24,24,24,0.8),
+     rgba(22,22,22,0.9)
+     ); ;
+    border:rgba(37,37,37,0.95) ;
+    color:rgba(255,255,255,0.8);
+}
+
+    .search-bar img{
+        width:26px;
+        object-fit:contain;
+        border:solid;
+        border-width:1px;
+        border-left:none;
+        border-radius:50%;
+    border-top-right-radius:12px;
+border-bottom-right-radius:12px;   border:rgba(37,37,37,0.95) ;
+background-color:transparent;
+        mix-blend-mode: lighten;
+    }
+
+    .search-bar button{
+        padding:0 0;
+backdrop-filter:brightness(0);
+ background: linear-gradient(60deg, rgba(26,26,26,0.6), rgba(24,24,24,0.7));
+        outline:none;
+        margin-right:0px;
+        border:none;
+        margin-top:4px;
+        -moz-border-radius-topright: 50%;
+        -moz-border-radius-bottomright: 50%;
+    }
+
+    .searchbox placeholder{
+      margin-left:10px;
+    }
+
+ .sum:hover:before{
+     content:"";
+     background:conic-gradient( from var(--angle), 
+     rgba(0, 128, 128,0.9),
+     rgba(48,213,200,0.9),
+     rgba(83,195,189,0.9),
+     rgba(0,255,255,0.9)
+     );;
+     border-radius:50%;
+     width:80%;
+     height:70%;
+     position:absolute;
+     top:18%;
+     left:10%;
+     z-index:-1;
+     filter: blur(1px);
+     animation: autorotate 5s linear infinite;
+ }
+
+ @keyframes autorotate{
+     to{
+         --angle:360deg;
+     }
+ }
+
+  .punchline{
+      display:flex;
+     width:100%;
+     justify-content:center;
+     margin-top:52px;
+
+  }
+  
+.punchline p:hover , .punchline ruby:hover , .Trent:hover{
+transform:translateZ(250px);
+  transition: all 1s cubic-bezier(0,1.49,.79,.86);
+    }
+
+ .punchline p {
+     font-size:25px;
+     color:white;
+     width:100%;
+background:linear-gradient(60deg,
+     rgba(255,166,166,1),
+     rgba(0,255,255),
+     rgba(30,225,255),
+     rgba(30,225,255),
+     rgba(0,255,255),
+     rgba(255,166,166,1));
+     background-clip:text;
+     color:transparent;
+text-shadow:-1px -1px -1px rgba(255,166,166,0.1), -1px 1px 1px rgba(0,255,255,0.1) , 1px -1px 1px rgba(30,225,255,0.1);
+background-size:200%;
+animation: runs 7.5s infinite alternate;
+animation-delay: -15s;
+overflow:auto;
+    transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+    transform-style: preserve-3d;
+     perspective:5500px;
+
+ }
+ 
+ @keyframes runs{
+0%{background-position:-39%;
+    opacity:1;
+text-shadow:-1px -1px -1px rgba(255,166,166,0.1), -1px 1px 1px rgba(0,255,255,0.1) , 1px -1px 1px rgba(30,225,255,0.1);
+}
+100%{background-position:100%;
+    opacity: 0.6;
+    text-shadow:-1px -1px -1px rgba(255,166,166,0.9), -1px 1px 1px rgba(0,255,255,0.9) , 1px -1px 1px rgba(30,225,255,0.9);
+}
+ }
+
+ ruby,.punchline{
+     position:relative;
+     color: white;
+text-shadow:1px 1px 1px rgba(255,166,166,0.1), 1px 1px 1px rgba(0,255,255,0.1) , 1px 1px 1px rgba(30,225,255,0.1);
+padding:0;
+margin-bottom:0;
+    transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+    transform-style: preserve-3d;
+     perspective:5500px;
+ }
+
+ rp,rt{
+     margin:0;
+     transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+    transform-style: preserve-3d;
+     perspective:5500px;
+     position:absolute;
+     top:19%;
+   font-size:12px;
+    font-weight:500;
+    background-size:200%;
+   font-weight: 575;
+     animation: run 5s linear infinite alternate;
+ }
+ 
+ @keyframes run{
+     0%{background-position:-39%;
+         opacity:1;
+     }
+100%{background-position:100%;
+    opacity:0.4;
+}
+
+ }
+ 
+ .rt0{
+    position:absolute;
+     top:15%;
+     display:flex;
+     font-size:12px;
+background:linear-gradient(60deg,
+rgba(255,166,166,1),
+rgba(60,225,200,1),
+rgba(60,235,200,1),
+rgba(60,235,200,1),
+rgba(60,225,200,1),
+rgba(255,166,166,1));
+background-size:200% ;
+background-clip: text ;
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+animation: runs 6s linear infinite alternate;
+text-shadow:1px 1px 1px rgba(255,166,166,0.05),1px 1px 1px rgba(60,225,200,0.05) ,1px 1px 1px rgba(60,235,200,0.05);
+ }
+ 
+ .rt1{
+     position:absolute;
+     top:63%;
+     display:flex;
+     right:0%;
+     left:45%;
+     font-size:12px;
+background:linear-gradient(60deg,rgba(255, 150, 255,1),
+rgba(142, 104, 255,1), 
+rgba(190, 150, 205,1),
+rgba(252, 114, 205,1));
+background-size:200% ;
+background-clip: text ;
+-webkit-background-clip:text;
+-webkit-text-fill-color: transparent;
+animation: runs 4s linear infinite alternate;
+ text-shadow:1px 1px 1px rgba(252, 114, 255,0.05),1px 1px 1px rgba(142, 104, 255,0.05),1px 1px 1px rgba(252, 114, 255,0.05) ;
+ }
+
+ .slider{
+     width:100%;
+     height:200px;
+     overflow:auto;
+     scroll-behavior:smooth mandatory;
+     scroll-padding-inline:10px ;
+     
+    margin-top:-13px;
+    margin-bottom:40px;
+transform-style:preserve-3d;
+perspective:5000px;
+mask-image:linear-gradient(90deg, transparent,rgb(250,250,250) 3.5% 95.5%,transparent);
+
+ }
+ 
+ .slider .list{
+     height: var(--height);
+     display:flex;
+     width:100%;
+    align-items: center;
+min-width: calc(var(--width) * var(--quantity));
+  position:relative;
+ transform-style:preserve-3d;
+ perspective:5500px;
+transition:all 0.5s linear cubic-bezier(.45,-0.49,.98,.99);
+top:15%;
+
+ }
+ 
+ .slider .list .Item img{
+     width:145px;
+     height:102.5px;
+     margin-bottom:0px;
+     object-fit: cover;
+     margin-left:3.5px;
+     margin-top:5px;
+     overflow: hidden;
+ }
+ 
+ 
+ .slider .list .Item p{
+     line-height:10px;
+     font-size:6px;
+     margin-top:0px;
+     width:150px;
+     padding-top:0px;
+     margin:auto;
+     margin-left:3px;
+     overflow-x: hidden;
+  text-overflow:ellipsis;
+  
+ }
+ .slider .list .Item span{
+     text-overflow:ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+ .slider .list .Item{
+     width:144px;
+     height: 141px;
+     margin-top:2px;
+     position:absolute;
+     left:100%;
+ animation:ssrun 240s linear infinite;
+animation-delay:calc( (240s / var(--quantity)) * (var(--position) - 1) - 240s)!important;
+transition:all 1s linear cubic-bezier(.45,-0.49,.98,.99);
+
+ }
+ 
+ @keyframes ssrun{
+     from{
+         left:100%;
+         transition:all 1s linear cubic-bezier(.45,-0.49,.98,.99);
+     }
+     to{
+    left:calc(var(--width) * -1);
+    transition:all 1s linear cubic-bezier(.45,-0.49,.98,.99);
+     }
+ }
+ 
+
+ .slider:hover .Item{
+animation-play-state:paused;
+transform:translateZ(175px) translateX(15px);
+box-sizing:border-box;
+transition:translateZ 5s ease ;
+ } 
+ .slider .Item:hover:before{
+     content:"";
+     width:calc(100% + 5px);
+     height:calc(100% + 5px);
+     position: absolute;
+     top:0%;
+     left:0%;
+     z-index:-1;
+     border:solid 1.5px;
+ border-image-source:conic-gradient( from var(--angle),
+     rgba(0, 128, 128,0.9),
+     rgba(48,213,200,0.9),
+     rgba(83,195,189,0.9),
+     rgba(0,255,255,0.9));
+    border-image-slice:1;
+  filter: blur(0.5px);
+ backdrop-filter:brightness(200%);
+ animation: brrun 8s cubic-bezier(.01,-0.48,.58,-0.49) infinite alternate  both; ;
+ }
+ 
+@keyframes brrun{
+    from{
+        --angle:0deg;
+    }to{
+                --angle:360deg;
+    }
+}
+
+ .slider[reverse="true"]:hover .Item{
+     animation-play-state:paused;
+ }
+
+.slider .list .Item:hover + *{
+    transform: translateZ(50px) rotateY(10deg) ;
+}
+
+.slider .list .Item:has(+ *:hover){
+    transform::translateZ(50px) rotateY(-10deg);
+}
+
+
+ .slider[reverse="true"] .Item{
+animation: sssrun 240s linear infinite;
+animation-delay: calc( (240s /var(--quantity)) * (var(--position - 1)) -240s  );
+ }
+ 
+ @keyframes sssrun{
+     from{
+    left:calc(var(--width) * -1);
+     }
+
+ to {
+         left:100%;
+     }
+ }
+
+.Trent{
+    font-size:17.5px;
+    font-weight:500;
+    margin-top:-10px;
+    margin-bottom:25px;
+    background:linear-gradient(120deg ,
+    rgba(255,150,140,0.9),
+   rgba(255,100,80,.8));
+  background-size:1000px;
+  background-repeat: repeat;
+animation: 8s linear infinite alternate both;
+animation-iteration-count:4;
+   animation-delay:2s;
+    background-clip:text;
+    color: transparent;
+    background-size:50px;
+    z-index: 80;
+    transition:all 0.5s linear cubic-bezier(.45,-0.49,.98,.99);
+    transform-style: preserve-3d;
+     perspective:5500px;
+    box-shadow: -1px -1px -1px rgba(50,250,255,0.2);
+}
+
+ @keyframes runss{
+0%{background-position:-39%;
+   letter-spacing:inherit;
+  transform: translateZ(0px);
+  box-shadow: none;
+}
+100%{background-position:100%;
+    right:-5%;
+    letter-spacing:3px;
+    transform: translateZ(1000px);
+box-shadow: -1px -1px -1px rgba(50,250,255,0.2);
+}
+ }
+
+ .side-bar .S1{
+        list-style:none;
+        position:relative;
+        outline:none;
+        right:50%;
+        width: max-content;
+        transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+
+    }
+
+    .D1   ul {
+        z-index: 100;
+        list-style:none;
+        position:absolute;
+        right:100%;
+        top:10%;
+        background-color:transparent;
+        padding-left:10px;
+        padding-right:10px;
+
+ background-image:repeating-linear-gradient(60deg,
+         rgba(250,30,50,0.7),
+            rgba(249,129,47,0.8));
+
+background-attachment:scroll;
+        background-repeat: repeat;
+        background-size:5px;
+        border-radius:10%;
+        transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+}
+
+.side-bar ul li:hover{
+transition:all 0.5s cubic-bezier(.45,-0.49,.98,.99);
+ border:2px solid;
+ border-radius:10%;
+background-image:repeating-linear-gradient(60deg,
+         rgba(255,60,100,0.7),
+            rgba(255,248,94,0.8));
+border-image-source:conic-gradient(from var(--angle),
+    red, lightblue,teal,red);
+ border-image-slice:1;   
+    animation: br 8s linear infinite alternate;
+
+}
+
+@keyframes br{
+    from{
+        --angle:0deg;
+    }to{
+                --angle:360deg;
+    }
+}
+
+ .Explore{
+     position:relative;
+     width:100%;
+     height:45vh;
+     text-align:center;
+     overflow:hidden;
+mask-image:linear-gradient(90deg,
+transparent,
+rgb(250,250,250) 7.5% 92.5%,
+transparent); 
+ }
+
+.Explore-content{
+    position:absolute;
+    top:20%;
+    left: calc(50% - 75px);
+    width:150px;
+    height:200px;
+    transform-style: preserve-3d;
+    transform: perspective(5500px);
+animation: autorun 16s cubic-bezier(.01,-0.48,.58,-0.49) infinite alternate  both;
+transition: all 1s cubic-bezier(.01,-0.48,.58,-0.49);
+
+}
+
+@keyframes autorun{
+    from{ 
+    transform:translateZ(190px) rotateX(-16deg)  rotateY(0deg);
+
+    }
+    to{
+     transform: translateZ(200px) rotateX(-16deg)  rotateY(360deg);
+    }
+}
+
+.Explore-content 
+.content-item *:hover:before {
+content:"";
+     width:calc(100% + 5px);
+     height:calc(100% + 5px);
+     position: absolute;
+     top:-5%;
+     left:-4%;
+     z-index:-1;
+     border:solid 3px;
+ border-image-source:conic-gradient( from var(--angle),
+     rgba(0, 128, 128,0.9),
+     rgba(48,213,200,0.9),
+     rgba(83,195,189,0.9),
+     rgba(0,255,255,0.9));
+    border-image-slice:1;
+  filter: blur(1px);
+ backdrop-filter:brightness(200%);
+ animation: brrun 8s cubic-bezier(.01,-0.48,.58,-0.49) infinite alternate  both; ;
+ }
+ 
+@keyframes brrun{
+    from{
+        --angle:0deg;
+    }to{
+                --angle:360deg;
+    }
+}
+
+ .Explore-content .content-item {
+    position:absolute;
+    inset: 0 0 0 0;
+transform: rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))  translateZ(200px);
+animation: itemm 10s cubic-bezier(.01,-0.48,.58,-0.49) infinite alternate   both;
+
+ transition: all 1s cubic-bezier(.92,-0.4,.41,.05);
+}
+
+@keyframes itemm{
+    0%{
+
+        mask-image:none;
+    }
+25%{
+
+mask-image:linear-gradient(90deg,
+transparent,
+rgb(250,250,250) 2.5% 97.5%,
+transparent); 
+}
+
+50%{
+    
+mask-image:linear-gradient(90deg,
+transparent,
+rgb(250,250,250) 5% 95%,
+transparent); 
+}
+75%{
+        
+mask-image:linear-gradient(90deg,
+transparent,
+rgb(250,250,250) 5.75% 94%,
+transparent); 
+}
+    100%{
+    
+mask-image:linear-gradient(90deg,
+transparent,
+rgb(250,250,250) 7.5% 92.5%,
+transparent); 
+    }
+}
+
+.Explore-content .content-item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.Explore-content:hover, .content-item:hover  {
+    animation-play-state:paused;
+}
+
+.wrapper{
+animation: fadeout both;
+animation-timeline:view(auto 99%);
+}
+
+.wrapperk{
+    animation: fadein both;
+animation-timeline: view(0.001% auto);
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 1;
+    }
+    to{ 
+        opacity: 0;
+    }
+}
+
+@keyframes fadein{
+    from{
+        opacity:0.5;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+.incon{
+    width:30px;
+    border:none;
+    border-radius:10%;
+    object-fit:cover;
+}
+
+.back{
+    display:flex;
+    margin-top:100px;
+border-bottom: solid 1px white;
+border-top: solid 1px white;
+background-image:url("file:///storage/emulated/0/Pictures/jej.jpg");
+    background-size: contain;
+}
+.insta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex:0.5;
+    border-right:solid 1px white;
+}
+
+.contact{
+    display: flex;
+    flex:1;
+    flex-direction:column;
+        border-right:solid 1px white;
+}
+
+.location-href{
+       display: flex;
+    flex-direction: column;
+    flex:0.45;
+     align-items: center;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.contact img{
+   width: 28px;
+   height: 28px;
+   object-fit: cover;
+   mix-blend-mode: lighten;
+   border-radius:50%;
+}
+
+.contact p{
+    text-align: center;
+}
+.mimg{
+    width: 50px;
+   object-fit: cover;
+ mix-blend-mode: lighten;
+ border-radius:50%;
+ border: none;
+ margin-left:5px;
+ margin-rightt:5px;
+}
+
+.limg{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius:50%;
+    border: none;
+    margin-top:-25px;
+    margin-left:2.5px;
+     margin-right:5px;
+}
+
+.callimg{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.homehd{
+   height:50px;
+   background-image:linear-gradient(60deg,rgba(30,30,30,0.9),rgba(20,20,20,0.9),rgba(10,10,10,0.9),black);
+    background-size: 20px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.homehd img{
+    display: flex;
+    width:40px;
+    margin: auto;
+    
+    
+}
+
+ </style>
+
+    </head>
+<div class="bodywrapper">
+    
+<div class="Header">
+
+    <div class="logo">
+<img lowsrc="file:///storage/emulated/0/Website/weblogo/logo-icon.0c358b29.svg" src="file:///storage/emulated/0/Website/weblogo/logo-icon.0c358b29.svg">
+            </div>
+
+       <form>        
+    <div class="search-bar">
+
+<input class="searchbox"  
+type="text" placeholder="Search"  list="text1">
+  <datalist id="text1"  name="text1" class="t1">
+      <option value="red">
+      <option value="blue">
+      <option value="green">
+      <option value="orange">
+  </datalist>
+       <button type="submit"> 
+<img  src="file:///storage/emulated/0/Website/K/Google icon/search_28dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg">
+       </button>
+
+    </div> 
+    </form> 
+
+    <div class="side-bar">
+        <img src="file:///storage/emulated/0/Website/weblogo/white-notification-bell-icon-transparent-background-701751695033958n33jtfuju8.png">
+
+
+<nav>
+        <details>
+            <summary class="sum">
+            <img  src="file:///storage/emulated/0/Website/weblogo/profile-user-round-white-icon-symbol-png-701751695033499brrbuebohc.png">
+            </summary>
+    <ul>
+        <li>
+    <details class="D1">
+    <summary class="s1">Register</summary>
+    <ul>
+
+    <li>Sign In</li>
+    <li>Join us</li>
+</ul>
+
+    </details>
+        </li>
+        <li>Orders</li>
+        <li>Reservations</li>
+        <li>Favourates</li>
+        <li>Quiz</li>
+        <li>Wallet</li>
+        <li>Inventory</li>
+        <li>Locate us</li>
+
+    </ul>
+        </details>  
+        </nav>
+         </div>   
+
+        </div>
+        
+<div class="wrapper">
+    
+<div class="punchline">
+    
+  <ruby>
+   <p>Because Life is to enjoy&#33;&#33;&#33;</p>
+
+<rt class="rt0">Make Universe of Memories&#33; </rt> 
+<rp>Make Universe of  Memories&#33;</rp> 
+<rt class="rt1">Make your life  Worth living&#33;</rt>
+<rp class="rp1">Make your life  Worth living&#33;</rp>
+
+ </ruby>
+ </div>
+ 
+ </div>
+ 
+ <div class="wrapper">
+  <p class="Trent">SpotLight Of the Week</p>
+</div>
+
+<div class="wrapper">
+<p class="Trent">Foods:-</p>
+</div>
+
+<div class="mwrapper">
+<div class="wrapper">
+   
+<div class="slider">
+    <!--separtion of div-->
+    <div class="list" style="--quantity:16;">
+     <!--item1--> 
+<div class="Item"  style="
+--position:1" >
+ <img src="file:///storage/emulated/0/Website/trending/m.jpg">
+ <p>Embark on a flavor adventure with  <span>our Peri Peri Mix Pasta,where al dente pasta meets a fiery peri peri sauce infused with garlic, chili, and spices, tossed with a colorful medley of vegetables, creating a bold and exhilarating dish that's sure to spice up your mealtime.</span></p>
+
+    </div>
+    <div class="Item" style="
+--position:2">
+ <img  src="file:///storage/emulated/0/Website/trending/pastapink.png">
+ <p>Experience the perfect blend of flavors with our Pink Sauce Pasta, <span> where tangy tomato sauce meets creamy alfredo, creating a luscious pink sauce that coats every strand of al dente pasta for a savory and satisfying dish that's both comforting and indulgent.</span></p>
+    </div>
+        <div class="Item" style="
+--position:3" >
+ <img src="file:///storage/emulated/0/Website/trending/2.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:4">
+ <img src="file:///storage/emulated/0/Website/trending/3.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:5">
+ <img src="file:///storage/emulated/0/Website/trending/4.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:6">
+ <img src="file:///storage/emulated/0/Website/trending/5.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:7">
+ <img src="file:///storage/emulated/0/Website/trending/6.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+ <div class="Item" style="
+--position:8">
+ <img src="file:///storage/emulated/0/Website/trending/7.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+<div class="Item"  style="
+--position:9" >
+ <img src="file:///storage/emulated/0/Website/trending/8.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:10">
+ <img  src="file:///storage/emulated/0/Website/trending/10.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:11" type="button">
+ <img src="file:///storage/emulated/0/Website/trending/9.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:12" ondblclick="">
+ <img src="file:///storage/emulated/0/Website/trending/11.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:13">
+ <img src="file:///storage/emulated/0/Website/trending/12.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:14">
+ <img src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:15">
+ <img src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+ <div class="Item" style="
+--position:16">
+ <img src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <!--below div is of list-->
+    </div>
+
+    <!--below div is of slider-->
+</div>
+</div>
+</div>
+
+<div class="wrapper">
+<p class="Trent">Beverages</p>
+</div>
+
+<div class="mwrapper">
+    
+<div class="wrapper">
+<div class="slider" reverse="true" style="--quantity:16">
+    <!--separtion of div-->
+    <div class="list">
+     <!--item1--> 
+<div class="Item" style="
+--position:1" >
+ <img src="file:///storage/emulated/0/Website/trending-beverages/2.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's jsjdkskcndmsk</p>
+    </div>
+
+    <div class="Item" style="
+--position:2">
+ <img  src="file:///storage/emulated/0/Website/trending-beverages/1.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's jajfjdkskcijf</p>
+    </div>
+
+        <div class="Item" style="
+--position:3" type="button">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/3.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+<div class="Item" type="button" style="
+--position:4">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/4.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:5">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/5.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:6">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/6.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:7">
+ <img src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:8">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/7.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>    
+<div class="Item"  style="
+--position:9" >
+ <img src="file:///storage/emulated/0/Website/trending-beverages/8.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:10">
+ <img  src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:11">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/9.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:12">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/10.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:13">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/11.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:14">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/12.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:15">
+ <img src="file:///storage/emulated/0/Website/trending-beverages/13.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+ <div class="Item" style="
+--position:16">
+ <img src="file:///storage/emulated/0/Website/trending/la-fresko-img.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="wrapper">
+<p class="Trent">Deserts:-</p>
+</div>
+
+<div class="wrapperk">
+<div class="wrapper" >
+    
+<div class="slider">
+    <!--separtion of div-->
+    <div class="list">
+     <!--item1--> 
+<div class="Item"  style="
+--position:1" >
+ <img src="file:///storage/emulated/0/Website/trending-deserts/1.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:2">
+ <img  src="file:///storage/emulated/0/Website/trending-deserts/2.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:3">
+ <img src="file:///storage/emulated/0/Website/trending-deserts/3.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:4" >
+ <img src="file:///storage/emulated/0/Website/trending-deserts/4.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:5">
+ <img src="file:///storage/emulated/0/Website/trending-deserts/5.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+    <div class="Item" style="
+--position:6">
+ <img src="file:///storage/emulated/0/Website/trending-deserts/6.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:7">
+ <img src="file:///storage/emulated/0/Website/trending-deserts/7.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+ <div class="Item" style="
+--position:8">
+ <img src="file:///storage/emulated/0/Website/trending-deserts/8.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+
+    <!--below div is of list-->
+    </div>
+
+    <!--below div is of slider-->
+</div>
+</div>
+</div>
+
+<div class="wrapperk">
+<div class="wrapper">
+<p class="Trent">Store:-</p>
+</div>
+</div>
+
+<div class="wrapperk">
+<div class="wrapper">
+<div class="slider" reverse="true">
+    <!--separtion of div-->
+    <div class="list">
+     <!--item1--> 
+<div class="Item" style="
+--position:1" >
+ <img src="file:///storage/emulated/0/Website/store/1.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's jsjdkskcndmsk</p>
+    </div>
+
+    <div class="Item" style="
+--position:2">
+ <img  src="file:///storage/emulated/0/Website/store/2.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's jajfjdkskcijf</p>
+    </div>
+
+        <div class="Item" style="
+--position:3" type="button">
+ <img src="file:///storage/emulated/0/Website/store/3.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+<div class="Item" type="button" style="
+--position:4">
+ <img src="file:///storage/emulated/0/Website/store/4.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:5">
+ <img src="file:///storage/emulated/0/Website/store/5.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:6">
+ <img src="file:///storage/emulated/0/Website/store/6.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:7">
+ <img src="file:///storage/emulated/0/Website/store/7.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>
+        <div class="Item" style="
+--position:8">
+ <img src="file:///storage/emulated/0/Website/store/8.png">
+ <p>Experience the ultimate in sandwich perfection with our Club Sandwich,a timeless classic that's</p>
+    </div>    
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="wrapperk">
+<div class="wrapper">
+<div class="Explore">
+<div class="Explore-content" style=" --quantity:4;">
+
+<div class="content-item" style="--position:1;">
+  <img src="file:///storage/emulated/0/Download/Add a heading_20241025_140416_0000.png">  
+
+</div>
+<div class="content-item" style="--position:2;">
+     <img src="file:///storage/emulated/0/Download/Add a heading_20241025_140416_0000.png">  
+
+</div>
+<div class="content-item" style="--position:3;">
+      <img src="file:///storage/emulated/0/Download/Add a heading_20241025_140416_0000.png"> 
+
+</div>
+
+<div class="content-item" style="--position:4;">
+    <img src="file:///storage/emulated/0/Download/Add a heading_20241025_140416_0000.png"> 
+
+</div>
+    </div>
+</div>
+</div>
+</div>
+
+
+    
+ <div class="wrapper">
+     
+    <div class="back">
+        <div class="insta">
+    <div>
+<p>Follow us</p>
+</div>
+<div>
+<img class="incon" src="file:///storage/emulated/0/Pictures/1200px-Instagram_icon.png">
+</div>
+        </div>
+    <div class="contact">
+   
+    <div>
+        
+    <p>Contact Us</p>
+    
+</div>
+
+<div class="callimg"> 
+<img src="file:///storage/emulated/0/Website/weblogo/call_40dp_CCCCCC_FILL0_wght400_GRAD0_opsz40.svg">
+<p>(+91)99133 99149</p>
+</div>
+
+    </div>
+<div class="location-href">
+    <p>Locate Us</p>
+
+<img  class="mimg" src="file:///storage/emulated/0/Pictures/1b707f176eef84a057c484cb86829abf.jpg">
+ </div>
+     </div>
+     
+<div class="address">
+    
+<img class="limg" src="file:///storage/emulated/0/Website/weblogo/location_on_40dp_F19E39_FILL0_wght400_GRAD0_opsz40.svg">
+<p>101-104 AR MALL, Mota Varachha, Surat, Gujarat 394101</p>
+</div>
+
+ </div>
+
+ <div class="hf">
+<div class="homehd">
+   <img src="file:///storage/emulated/0/Website/weblogo/home_28dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"> 
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
